@@ -1,0 +1,118 @@
+/* Overall App Styling */
+.app-container {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  margin: 0;
+  padding: 1em; /* Padding around the content */
+}
+
+.header {
+  background-color: #0e1b4d; /* Dark blue */
+  padding: 1em; /* Padding in the header */
+  text-align: center; /* Center-align header content */
+}
+
+.header-title {
+  color: white; /* White for contrast */
+  font-size: 2em; /* Large font */
+  margin: 0;
+}
+
+.search-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1em; /* Padding around search */
+}
+
+.search-input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5em;
+  width: 60%; /* Wider input field */
+}
+
+.search-button {
+  background-color: #0e1b4d; /* Same color as the header */
+  border: none;
+  border-radius: 5px;
+  color: white; /* White text */
+  padding: 0.5em 1em; /* Padding for a substantial button */
+  cursor: pointer; /* Change cursor on hover */
+  margin-left: 0.5em; /* Space between input and button */
+}
+
+.recipe-container {
+  padding: 1em; /* Padding around recipe container */
+}
+
+.recipe-grid {
+  display: flex;
+  flex-wrap: wrap; /* Allow multiple recipe cards */
+  justify-content: center; /* Center the recipes */
+  gap: 2em; /* Space between cards */
+}
+
+.recipe-card {
+  background-color: white;
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  width: 300px; /* Fixed width */
+}
+
+.recipe-card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Keep image aspect ratio */
+}
+
+.recipe-details {
+  padding: 1em; /* Padding within the recipe card */
+}
+
+.recipe-title {
+  font-size: 1.5em; /* Large font for the title */
+  margin-bottom: 0.5em; /* Space below title */
+}
+
+.recipe-buttons {
+  display: flex;
+  justify-content: space-between; /* Align buttons at opposite ends */
+  align-items: center; /* Center-align buttons */
+}
+
+.recipe-info {
+  font-size: 0.9em; /* Smaller font for additional info */
+  margin: 1em 0; /* Space above and below the info */
+}
+
+.ingredient-list {
+  list-style: none; /* No bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.toggle-link {
+  color: #ee15d5; /* Dark blue */
+  text-decoration: underline; /* Underline for links */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+.toggle-link:hover {
+  text-decoration: none; /* Remove underline on hover */
+}
+
+.favorites-section {
+  padding: 2em; /* Padding for the favorites section */
+}
+
+.view-more-link {
+  color: #0e1b4d; /* Dark blue */
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.view-more-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
